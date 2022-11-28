@@ -1,0 +1,38 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Hambúrguer",
+      "descricao": "Pão, bife de hambúrguer 90g, salada e batata.",
+      "preco": 8.5,
+      "categoria_id": 1
+    },
+    {
+      "id": 1,
+      "nome": "Hambúrguer",
+      "descricao": "Pão, bife de hambúrguer 90g, salada e batata.",
+      "preco": 8.5,
+      "categoria_id": 1
+    },
+    {
+      "id": 1,
+      "nome": "Hambúrguer",
+      "descricao": "Pão, bife de hambúrguer 90g, salada e batata.",
+      "preco": 8.5,
+      "categoria_id": 1
+    },
+    {
+      "id": 1,
+      "nome": "Hambúrguer",
+      "descricao": "Pão, bife de hambúrguer 90g, salada e batata.",
+      "preco": 8.5,
+      "categoria_id": 1
+    }
+  ],
+  "itens": [
+    {
+      "id": 1,
+      "descricao": "Categoria"
+    }
+  ]
+}
