@@ -1,0 +1,10 @@
+<nav>
+  <ul>
+    <a *ngFor="let itemMenu of menuList" [routerLink]="['/path']">
+      itemMenu.name
+    </a>
+    <a *ngFor="let itemMenu of menuList" [] href="/configs">
+      <li>{{ itemMenu.name }}</li>
+    </a>
+  </ul>
+</nav>

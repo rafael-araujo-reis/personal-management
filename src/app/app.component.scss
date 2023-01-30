@@ -1,0 +1,39 @@
+.container {
+  border: 1px solid #000;
+  max-width: 1400px;
+  margin-inline: auto;
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-areas:
+    "menu header header header header header header header header"
+    "menu pages  pages  pages  pages  pages  pages  pages  pages"
+    "menu pages  pages  pages  pages  pages  pages  pages  pages"
+    "menu pages  pages  pages  pages  pages  pages  pages  pages"
+    "menu pages  pages  pages  pages  pages  pages  pages  pages"
+    "menu pages  pages  pages  pages  pages  pages  pages  pages"
+    "menu pages  pages  pages  pages  pages  pages  pages  pages"
+    "menu pages  pages  pages  pages  pages  pages  pages  pages"
+    "menu pages  pages  pages  pages  pages  pages  pages  pages"
+    "menu pages  pages  pages  pages  pages  pages  pages  pages"
+    "menu pages  pages  pages  pages  pages  pages  pages  pages"
+    "menu pages  pages  pages  pages  pages  pages  pages  pages"
+    "menu pages  pages  pages  pages  pages  pages  pages  pages";
+}
+
+#header {
+  grid-area: header;
+  border: 1px solid #000;
+  width: 100%;
+}
+
+#menu {
+  grid-area: menu;
+  border: 1px solid #000;
+}
+
+.pages {
+  grid-area: pages;
+  border: 1px solid #000;
+  width: 100%;
+}

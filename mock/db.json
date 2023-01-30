@@ -1,4 +1,36 @@
 {
+  "menu": [
+    {
+      "name": "Dashboard",
+      "path": "dashboard"
+    },
+    {
+      "name": "Configurações",
+      "path": "configs"
+    },
+    {
+      "name": "Contas",
+      "path": "counts"
+    },
+    {
+      "name": "Lista de Itens",
+      "path": "items"
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "receita"
+    },
+    {
+      "id": 2,
+      "name": "despesa"
+    },
+    {
+      "id": 3,
+      "name": "investimento"
+    }
+  ],
   "produtos": [
     {
       "id": 1,
